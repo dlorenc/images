@@ -802,6 +802,11 @@ module "wait-for-it" {
   target_repository = "${var.target_repository}/wait-for-it"
 }
 
+module "wasmedge" {
+  source            = "./images/wasmedge"
+  target_repository = "${var.target_repository}/wasmedge"
+}
+
 module "wasmer" {
   source            = "./images/wasmer"
   target_repository = "${var.target_repository}/wasmer"
