@@ -15,3 +15,8 @@ entrypoint:
   command: /usr/bin/terraform
 
 cmd: --help
+
+  repositories:
+    - https://package.cgr.dev/extras
+  keyring:
+    - https://package.cgr.dev/extras/chainguard-extras.rsa.pub

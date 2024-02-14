@@ -10,7 +10,7 @@ variable "target_repository" {
 
 module "latest-config" {
   source         = "./config"
-  extra_packages = ["terraform<1.6"]
+  extra_packages = ["terraform"]
 }
 
 module "latest" {
